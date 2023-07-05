@@ -1,0 +1,101 @@
+@keyframes rainbow {
+    0% {color: red;}
+    17% {color: orange;}
+    33% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    67% {
+        color: blue;
+    }
+    84% {
+        color: indigo;
+    }
+    100% {
+        color: violet;
+    }
+}
+
+.titlebox {
+    display: flex;
+}
+
+.title, .navbtns, .abt {
+    background-color:rgba(255,255,255,0.75);
+    padding: 7.5px;
+    color:red;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    border-radius: 5px;
+}
+
+.navbtns > a {
+    font-style: none;
+    font-size: large;
+    color:red;
+    text-decoration: none;
+    margin:10px;
+}
+
+.navbtns > a:hover {
+    animation: rainbow 1s infinite;
+}
+
+.title {
+    width: 55%;
+    margin-right:1%;
+}
+
+.navbtns {
+    width:44%;
+}
+
+.videoinfo {
+    width: 100%;
+    padding: 7.5px;
+    display: flex;
+}
+
+.videoembed {
+    width:39%;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.75);
+    padding: 7.5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:1%;
+}
+
+.videotext {
+    width:85%;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.75);
+    padding: 7.5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:2.5%;
+}
+
+.videoinfo {
+    color:red;
+    text-align: center;
+    font-family: "Comic Sans MS";   
+}
+
+
+.hitler1 {
+    background-image: url("help1.gif");
+
+}
+
+.hitler2{
+    background-image: url("chle.gif");
+ 
+}
+
+.hitler3{
+    background-image: url("help2.gif");
+ 
+}
